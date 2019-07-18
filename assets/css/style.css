@@ -1,0 +1,56 @@
+body{
+    background-image: url("../images/crystal-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+.crystals{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.jewel{
+    width:200px;
+    margin-left: 50px;
+    height:200px;
+    border: solid;
+    border-width: 1px;
+    border-color:red;
+    float: left;
+}
+
+
+
+.instruction{
+    background-color: orange;
+    font:white;
+    width:35%;
+    height:250%;
+    align-content: center;
+}
+
+.ranNum{
+    background-color: orange;
+    font:white;
+}
+
+
+ .score{
+     background-color:orange;
+     font:white;
+    
+ }
+
+ .totalScore{
+     background-color: orange;
+     font:white;
+     
+ }
+
