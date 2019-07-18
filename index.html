@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Game</title>
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -26,16 +27,19 @@
         <br>
 
 
-        <div class row>
-            <div class="col-lg-3" class="random">
+        
+            <div class="random">
                 <section class="ranNum">
 
                 </section>
             </div>
+            <br>
 
-            <div class="col-lg-6" class="result">
-                <section class="win/lose">
-                
+            <div class="result">
+                <section class="tally">
+                    <p>Win/Loss Record</p>
+                <p id="wins"></p>
+                <p id="loss"></p>
                 </section>
 
             </div>
@@ -47,15 +51,16 @@
                 
             </section>
         </div>
+        <br>
 
 
         <div class="score">
-            <p>Your Total Score is: </p>
+           
         </div>
         
-        <div>
+        <div class="scoreContainer">
             <section class="totalScore">
-<p>fhjdklsajfkdlsa</p>
+                <p>0</p>
 
             </section>
         </div>
